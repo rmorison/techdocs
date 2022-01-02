@@ -1,0 +1,33 @@
+
+* Go & related tools
+
+** Installing Go
+
+   A Go version manager is recommended. [[https://github.com/moovweb/gvm][Gvm]] is good, but [[https://github.com/stefanmaric/g][g]] is better.
+
+** Go dev tools
+
+#+begin_src bash
+go install github.com/go-delve/delve/cmd/dlv@latest
+go install golang.org/x/tools/gopls@latest
+#+end_src
+
+** Cobra
+
+  - [[https://github.com/spf13/cobra][Cobra repo]]
+  - [[https://github.com/spf13/cobra/blob/master/cobra/README.md][Cobra generator]]
+  - [[https://github.com/spf13/cobra/blob/master/user_guide.md][Cobra user guide]]
+
+* Protobuf and grpc
+
+** 1st party protobuf and grpc references
+  - [[https://grpc.io/docs/what-is-grpc/introduction/][Introduction to gRPC]]
+  - [[https://grpc.io/docs/what-is-grpc/core-concepts/][Core concepts, architecture and lifecycle]], important to understand
+    gRPC lifecycle
+  - [[https://developers.google.com/protocol-buffers][Protocol Buffers]]
+  - [[https://developers.google.com/protocol-buffers/docs/proto3][Language Guide (proto3)]]
+  - [[https://github.com/grpc/grpc-go/tree/master/examples/helloworld][Greeter example app]] from the [[https://github.com/grpc/grpc-go][grpc-go repo]]
+
+** 3rd party docs and tutorials
+  - [[https://www.fullstory.com/blog/tale-of-grpcurl/][The tale of gRPCurl]]
+  - [[https://miguelabate.com/protobuf-communication-between-js-client-and-go-server/][Protobuf communication between Js-client and Go-server]]

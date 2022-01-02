@@ -1,0 +1,25 @@
+# -*- mode: gitignore; -*-
+
+# IDE settings
+# ------------
+.vscode/
+
+# IDE
+# ---
+.idea
+.vscode
+*~
+\#*\#
+
+# MAC OSX
+# -------
+.DS_Store
+
+# Tools build artifacts
+# ---------------------
+tools/downloads
+tools/include
+tools/bin
+tools/vendor
+tools/readme.txt
+
